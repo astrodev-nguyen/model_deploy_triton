@@ -163,5 +163,5 @@ Model output: I'm doing okay. I was just really busy with school and getting my 
 
 ## 9. Ghi chú sau khi infer xong:
 - OPT-125M khá nhỏ, output chưa tự nhiên hoặc có thể dẫn đến lạc đề, nhưng sau cùng thì deploy được mô hình. 
-- Nếu cần chất lượng cao hơn 
+- Nên cần chất lượng cao hơn (khoảng 1B tham số thì việc đưa ra output sẽ tốt hơn, tuy nhiên đây chỉ là việc thử nghiệm việc load model và thử mô hình, không chú trọng kết quả)
 - Có thể tinh chỉnh hyperparameters trong `model.json` (`temperature`, `top_p`, `repetition_penalty`, …).
