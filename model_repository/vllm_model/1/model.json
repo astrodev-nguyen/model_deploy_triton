@@ -1,0 +1,13 @@
+﻿{
+  "model": "facebook/opt-125m",
+  "disable_log_requests": "true",
+  "gpu_memory_utilization": 0.7,
+  "max_num_batched_tokens": 2048,
+  "max_num_seqs": 32,
+  "do_sample": true,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "max_new_tokens": 64,
+  "repetition_penalty": 1.2,
+  "no_repeat_ngram_size": 3
+}
